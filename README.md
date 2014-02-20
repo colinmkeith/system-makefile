@@ -24,15 +24,15 @@ httpd-2.2.25.tar.bz2.asc
 
 and so you would create a Makefile with the name:
 
-`httpd-2.2.25.mak`
+`httpd-2.2.25.mk`
 
 Then you can run:
 
-`% make -f *.mak`
+`% make -f *.mk`
 
 And it will handle un-compressing the tar-ball, running ./configure and "make". You then run
 
-`% make -f *.mak install`
+`% make -f *.mk install`
 
 To install.
 
